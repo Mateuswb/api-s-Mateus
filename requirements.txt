@@ -1,0 +1,12 @@
+Flask
+Flask-Cors
+Flask-Jsonpify
+Flask-RESTful
+Flask-SQLAlchemy
+gunicorn
+peewee
+psycopg2
+python-dotenv
+PySide6
+requests
+rapidfuzz
