@@ -4,7 +4,7 @@ from rapidfuzz import process
 class Mateus(Resource):
 
     categorias = {
-        "Exames de sangue": [
+        "Sangue": [
             {"nome": "hemograma", "tempo": 10},
             {"nome": "colesterol", "tempo": 10},
             {"nome": "glicemia", "tempo": 5},
@@ -12,7 +12,7 @@ class Mateus(Resource):
             {"nome": "plaquetas", "tempo": 10},
             {"nome": "hemoglobina glicada", "tempo": 15}
         ],
-        "Exames de imagem": [
+        "Imagem": [
             {"nome": "raio-x", "tempo": 15},
             {"nome": "ressonância magnética", "tempo": 60},
             {"nome": "tomografia", "tempo": 30},
@@ -20,19 +20,19 @@ class Mateus(Resource):
             {"nome": "mamografia", "tempo": 20},
             {"nome": "densitometria óssea", "tempo": 30}
         ],
-        "Exames cardiológicos": [
+        "Cardiológicos": [
             {"nome": "eletrocardiograma", "tempo": 10},
             {"nome": "ecocardiograma", "tempo": 40},
             {"nome": "holter", "tempo": 1440},
             {"nome": "teste ergométrico", "tempo": 35},
             {"nome": "MAPA", "tempo": 1440}
         ],
-        "Exames de urina": [
+        "Urina": [
             {"nome": "urina tipo i", "tempo": 5},
             {"nome": "urocultura", "tempo": 5},
             {"nome": "exame de urina", "tempo": 5}
         ],
-        "Exames hormonais": [
+        "Hormonais": [
             {"nome": "tsh", "tempo": 10},
             {"nome": "t4 livre", "tempo": 10},
             {"nome": "testosterona", "tempo": 10},
@@ -40,13 +40,13 @@ class Mateus(Resource):
             {"nome": "cortisol", "tempo": 10},
             {"nome": "progesterona", "tempo": 10}
         ],
-        "Exames infecciosos": [
+        "Infecciosos": [
             {"nome": "hiv", "tempo": 15},
             {"nome": "hepatite b", "tempo": 15},
             {"nome": "hepatite c", "tempo": 15},
             {"nome": "sífilis", "tempo": 15}
         ],
-        "Exames respiratórios": [
+        "Respiratórios": [
             {"nome": "espirometria", "tempo": 20},
             {"nome": "gasometria arterial", "tempo": 10},
             {"nome": "teste de função pulmonar", "tempo": 25}
