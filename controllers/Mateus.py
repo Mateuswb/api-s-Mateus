@@ -31,7 +31,6 @@ class Mateus(Resource):
         ],
         "Hormonais": [
             {"nome": "tsh", "tempo": 10, "descricao": "Avalia a função da tireoide medindo o hormônio estimulante da tireoide (TSH)."},
-            {"nome": "t4 livre", "tempo": 10, "descricao": "Complementa o exame de TSH, medindo o hormônio tiroxina livre no sangue."},
             {"nome": "testosterona", "tempo": 10, "descricao": "Mede o nível do hormônio testosterona, importante para a saúde reprodutiva e metabólica."},
             {"nome": "estradiol", "tempo": 10, "descricao": "Avalia o hormônio estrogênio, essencial no ciclo menstrual e na fertilidade feminina."},
             {"nome": "cortisol", "tempo": 10, "descricao": "Mede o hormônio do estresse, importante na avaliação da função adrenal."},
